@@ -1,0 +1,10 @@
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\bin\Debug\netstandard2.0\Ressources.deps.json
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\bin\Debug\netstandard2.0\Ressources.dll
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\bin\Debug\netstandard2.0\Ressources.pdb
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.csprojAssemblyReference.cache
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.g.resources
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.csproj.CoreCompileInputs.cache
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.AssemblyInfoInputs.cache
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.AssemblyInfo.cs
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.dll
+C:\Users\Stéphane\Documents\ProjetPartage\projet\Utilities\obj\Debug\netstandard2.0\Ressources.pdb

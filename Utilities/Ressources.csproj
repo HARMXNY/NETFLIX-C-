@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.png" />
+    <None Remove="img\avatar\monster\1.jpg" />
+    <None Remove="img\avatar\monster\2.jpg" />
+    <None Remove="img\avatar\monster\3.jpg" />
+    <None Remove="img\avatar\monster\4.jpg" />
+    <None Remove="img\avatar\monster\5.jpg" />
+    <None Remove="img\avatar\monster\6.jpg" />
+    <None Remove="img\avatar\monster\7.jpg" />
+    <None Remove="img\avatar\netflix\1.png" />
+    <None Remove="img\avatar\netflix\2.png" />
+    <None Remove="img\avatar\netflix\3.png" />
+    <None Remove="img\avatar\netflix\4.png" />
+    <None Remove="LeLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\avatar\monster\1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\monster\2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\monster\3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\monster\4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\monster\5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\monster\6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\monster\7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\netflix\1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\netflix\2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\netflix\3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\avatar\netflix\4.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="LeLogo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
