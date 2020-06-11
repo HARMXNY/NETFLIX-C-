@@ -1,0 +1,60 @@
+﻿<Window xmlns:UCF="clr-namespace:ProjetStream.UCF"  x:Class="ProjetStream.SuppressionFilm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetStream"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+         Title="AjoutFilm" Height="500" Width="600" Background="#141414" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="TextBlockStyle1" TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+            <Setter Property="TextTrimming" Value="None"/>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="titre" HorizontalAlignment="Right" Text="Suppresion de film" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="White" FontSize="48" FontFamily="Arial" FontWeight="Bold" TextAlignment="Center" Margin="0,0,84,0"/>
+        <Grid Grid.Row="1">
+
+
+            <ComboBox
+                x:Name="affichagelistefilms"
+                HorizontalAlignment="Center"
+                Background="Transparent"
+                materialDesign:HintAssist.Hint="Séléctionner un film"
+                HorizontalContentAlignment="Center"
+                Width="550"
+              IsEditable="True"
+              ItemsSource="{Binding LesFilms}">
+
+                <ComboBox.Text>
+                    <Binding
+      Path="SelectedTextTwo"
+      Mode="TwoWay"
+      UpdateSourceTrigger="PropertyChanged">
+                    </Binding>
+                </ComboBox.Text>
+                <ComboBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel/>
+                    </ItemsPanelTemplate>
+                </ComboBox.ItemsPanel>
+            </ComboBox>
+
+        </Grid>
+        <Button Style="{StaticResource bouttonannulerajout}" Margin="342,28,0,27" Click="Annuler" Grid.Row="2" HorizontalAlignment="Left" Width="200"/>
+        <Button x:Name="suppression" Style="{StaticResource bouttonvalidersuppr}" Margin="75 0 0 0" Click="supprimerfilm"/>
+
+
+    </Grid>
+
+</Window>
